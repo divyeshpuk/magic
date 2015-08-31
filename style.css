@@ -1,0 +1,65 @@
+body {
+	font-size: 100%;
+	font-family: sans-serif;
+	margin: 20px;
+}
+input {
+	margin: 0;
+}
+ul {
+	list-style-type: none; 
+	margin: 0;
+}
+ul li {
+	font-size: 1.5em;
+}
+.wrapper { 
+	width: 175px; 
+	margin: 0 auto;
+}
+.row {
+	clear: both;
+	overflow: hidden;
+}
+.row ul:first-child {
+	padding-left: 0;
+}
+#col0, 
+#col1, 
+#col2 {
+	float: left; 
+}
+.radio {
+	clear: both;
+}
+.radio li {
+	display: inline-block;
+	width: 24px; 
+	height: 24px;
+	text-align: center;
+}
+.radio li.ii, 
+.radio li.iii {
+	margin-left: 40px;
+}
+input[type="radio"] {
+	width: 18px; 
+	height: 18px;
+}
+input[type="button"] {
+	font-size: 1.1em;
+	display: block;
+	margin: 20px auto;
+}
+input.magic-button, 
+.hide {
+	display: none;
+}
+.reveal-magic-button {
+	display: block;
+}
+p {
+	text-align: center;
+	font-size: 1.1em;
+	margin: 0;
+}
